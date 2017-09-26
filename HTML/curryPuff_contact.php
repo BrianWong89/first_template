@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Brian's Curry Puff</title>
+    <title>Contact Us | Brian's Curry Puff</title>
 
     <meta name="keywords" content="HTML5 Template"/>
     <meta name="description" content="Porto - Responsive HTML5 Template">
@@ -128,7 +128,7 @@
                                             </li>
 
                                             <li class="">
-                                                <a href="curryPuff_contact.php">
+                                                <a href="#">
                                                     Contact Us
                                                 </a>
                                             </li>
@@ -143,188 +143,185 @@
         </div>
     </header>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <img src="img/curryPuff3.png" class="img-responsive">
-            </div>
-        </div>
-    </div>
+    <div role="main" class="main">
 
-    <div class="container">
-        <div class="row mt-xl mb-xl">
-            <div class="col-md-3">
-                <img class="img-responsive mt-xl appear-animation" src="img/curryPuff1.png" alt=""
-                     data-appear-animation="fadeInLeft">
-            </div>
-            <div class="col-md-9">
-                <h2 class="mt-xl"><strong>Freshly Baked</strong> Puffs Daily</h2>
-                <p>
-                    At Brian's Curry Puff, we ensure out puffs are hand-made and freshly baked from the oven on a daily
-                    basis. We only utilize the very freshest and best of ingredients to ensure our puffs remain of high
-                    quality and standards, to satisfy the taste buds of all curry puff lovers out there.
-                </p>
-            </div>
-        </div>
-    </div>
-    <section class="section section-default">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9">
-                    <h2><strong>Flavours</strong> Galore</h2>
-                    <p>
-                        In addition to our best-selling Chicken Curry with Potato, we have other popular flavours
-                        like Sardine, Beef/Mutton Rendang, Chicken Satay, Chilli Crab, etc. We strive to remain
-                        up-to-date and contemporary by experimenting and coming up with new flavors generated from
-                        feedback from our customers.
-                    </p>
+        <section class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="breadcrumb">
+                            <li><a href="curryPuff_index.php">Home</a></li>
+                            <li class="active">Contact Us</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <img class="hidden-xs img-responsive appear-animation"
-                         src="img/curryPuff2.png" alt="" data-appear-animation="fadeInRight">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section section-background section-text-light section-center mt-xl mb-none"
-             style="background-image: url('img/parallax.jpg'); background-position: 50% -100px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <h2><i class="fa fa-star font-size-xs mr-xs"></i><i class="fa fa-star font-size-xs mr-xs"></i><i
-                                class="fa fa-star font-size-xs mr-xs"></i><i
-                                class="fa fa-star font-size-xs mr-xs"></i><i
-                                class="fa fa-star font-size-xs"></i><br><strong>What Our Customers Say</strong></h2>
-                    <div class="owl-carousel owl-theme nav-bottom rounded-nav mb-none"
-                         data-plugin-options="{'items': 1, 'loop': false}">
-                        <div>
-                            <div class="col-md-12">
-                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
-                                    <blockquote>
-                                        <p>Rarely have I tasted such amazing and delicious curry puffs, other than
-                                            the ones my mother made. These puffs definitely deserve 5-stars and 2
-                                            thumbs up!
-                                        </p>
-                                    </blockquote>
-                                    <div class="testimonial-author">
-                                        <p><strong>Sharon, Housewife</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="col-md-12">
-                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
-                                    <blockquote>
-                                        <p>One thing that sets apart Brian's Curry Puff from its competitors is the
-                                            amazingly fragrant and delicious filling (and generous!), to go along its
-                                            savory and crispy exterior. A match made in heaven. You'd be hard-pressed
-                                            to find a better curry puff in Singapore.
-                                        </p>
-                                    </blockquote>
-                                    <div class="testimonial-author">
-                                        <p><strong>Ah-Ken, Food Critic</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="col-md-12">
-                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
-                                    <blockquote>
-                                        <p>These puffs are to-die-for! My friends and I never fail to have it as a
-                                            snack, at least twice a week. Moreover, it's cheaper compared to other
-                                            famous puffs, which makes it even better!
-                                        </p>
-                                    </blockquote>
-                                    <div class="testimonial-author">
-                                        <p><strong>Jeremy, Student</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Contact Us</h1>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-</div>
+        </section>
 
-<footer id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-ribbon">
-                <span>Get in Touch</span>
-            </div>
-            <div class="col-md-4">
-                <div class="newsletter">
-                    <h4>Newsletter</h4>
-                    <p>Keep up on our always evolving products and offers. Enter your e-mail and
-                        subscribe to our newsletter.</p>
+        <div class="container">
 
-                    <div class="alert alert-success hidden" id="newsletterSuccess">
-                        <strong>Success!</strong> You've been added to our email list.
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="alert alert-success hidden mt-lg" id="contactSuccess">
+                        <strong>Success!</strong> Your message has been sent to us.
                     </div>
 
-                    <div class="alert alert-danger hidden" id="newsletterError"></div>
+                    <div class="alert alert-danger hidden mt-lg" id="contactError">
+                        <strong>Error!</strong> There was an error sending your message.
+                        <span class="font-size-xs mt-sm display-block" id="mailErrorMessage"></span>
+                    </div>
 
-                    <form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST">
-                        <div class="input-group">
-                            <input class="form-control" placeholder="Email Address" name="newsletterEmail"
-                                   id="newsletterEmail" type="text">
-                            <span class="input-group-btn">
-											<button class="btn btn-default" type="submit">Go!</button>
-										</span>
+                    <h2 class="mb-sm mt-sm"><strong>Contact</strong> Us</h2>
+                    <form id="contactForm" action="curryPuff_contact.php" method="POST">
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-md-6">
+                                    <label>Your name *</label>
+                                    <input type="text" value="" data-msg-required="Please enter your name."
+                                           maxlength="100" class="form-control" name="name" id="name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Your email address *</label>
+                                    <input type="email" value="" data-msg-required="Please enter your email address."
+                                           data-msg-email="Please enter a valid email address." maxlength="100"
+                                           class="form-control" name="email" id="email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <label>Subject</label>
+                                    <input type="text" value="" data-msg-required="Please enter the subject."
+                                           maxlength="100" class="form-control" name="subject" id="subject" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <label>Message *</label>
+                                    <textarea maxlength="5000" data-msg-required="Please enter your message." rows="10"
+                                              class="form-control" name="message" id="message" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="submit" value="Send Message" class="btn btn-primary btn-lg mb-xlg"
+                                       data-loading-text="Loading...">
+                            </div>
                         </div>
                     </form>
                 </div>
+                <div class="col-md-6">
+
+                    <h4 class="heading-primary">Our <strong>Office</strong></h4>
+                    <ul class="list list-icons list-icons-style-3 mt-xlg">
+                        <li><i class="fa fa-map-marker"></i> <strong>Address:</strong> 228 Pasir Ris Street 21, 510228, Singapore
+                        </li>
+                        <li><i class="fa fa-phone"></i> <strong>Phone:</strong> (65) 9006-5328</li>
+                        <li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="#">darkness3nity@yahoo.com.sg</a>
+                        </li>
+                    </ul>
+
+                    <hr>
+
+                    <h4 class="heading-primary">Business <strong>Hours</strong></h4>
+                    <ul class="list list-icons list-dark mt-xlg">
+                        <li><i class="fa fa-clock-o"></i> Monday - Friday - 9am to 5pm</li>
+                        <li><i class="fa fa-clock-o"></i> Saturday - 9am to 2pm</li>
+                        <li><i class="fa fa-clock-o"></i> Sunday and Public Holiday - Closed</li>
+                    </ul>
+
+                </div>
+
             </div>
 
-            <div class="col-md-4">
-                <div class="contact-details">
-                    <h4>Contact Us</h4>
-                    <ul class="contact">
-                        <li><p><i class="fa fa-map-marker"></i> <strong>Address:</strong> 228 Pasir Ris Street 21,
-                                510228, Singapore</p></li>
-                        <li><p><i class="fa fa-phone"></i> <strong>Phone:</strong> (65) 9006-5328</p></li>
-                        <li><p><i class="fa fa-envelope"></i> <strong>Email:</strong> <a
-                                        href="mailto:mail@example.com">darkness3nity@yahoo.com.sg</a></p></li>
+        </div>
+
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-ribbon">
+                    <span>Get in Touch</span>
+                </div>
+                <div class="col-md-4">
+                    <div class="newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Keep up on our always evolving products and offers. Enter your e-mail and
+                            subscribe to our newsletter.</p>
+
+                        <div class="alert alert-success hidden" id="newsletterSuccess">
+                            <strong>Success!</strong> You've been added to our email list.
+                        </div>
+
+                        <div class="alert alert-danger hidden" id="newsletterError"></div>
+
+                        <form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST">
+                            <div class="input-group">
+                                <input class="form-control" placeholder="Email Address" name="newsletterEmail"
+                                       id="newsletterEmail" type="text">
+                                <span class="input-group-btn">
+											<button class="btn btn-default" type="submit">Go!</button>
+										</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="contact-details">
+                        <h4>Contact Us</h4>
+                        <ul class="contact">
+                            <li><p><i class="fa fa-map-marker"></i> <strong>Address:</strong> 228 Pasir Ris Street 21,
+                                    510228, Singapore</p></li>
+                            <li><p><i class="fa fa-phone"></i> <strong>Phone:</strong> (65) 9006-5328</p></li>
+                            <li><p><i class="fa fa-envelope"></i> <strong>Email:</strong> <a
+                                            href="#">darkness3nity@yahoo.com.sg</a></p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>Follow Us</h4>
+                    <ul class="social-icons">
+                        <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank"
+                                                             title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank"
+                                                            title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank"
+                                                             title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4">
-                <h4>Follow Us</h4>
-                <ul class="social-icons">
-                    <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank"
-                                                         title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank"
-                                                        title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank"
-                                                         title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
         </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <p>© Copyright 2017. All Rights Reserved.</p>
-                </div>
-                <div class="col-md-4">
-                    <nav id="sub-menu">
-                        <ul>
-                            <li><a href="curryPuff_index.php">Home</a></li>
-                            <li><a href="curryPuff_aboutUs.php">About</a></li>
-                            <li><a href="curryPuff_contact.php">Contact</a></li>
-                        </ul>
-                    </nav>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>© Copyright 2017. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <nav id="sub-menu">
+                            <ul>
+                                <li><a href="curryPuff_index.php">Home</a></li>
+                                <li><a href="curryPuff_aboutUs.php">About</a></li>
+                                <li><a href="curryPuff_contact.php">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </div>
 
 <!-- Vendor -->
@@ -347,10 +344,7 @@
 <script src="js/theme.js"></script>
 
 <!-- Current Page Vendor and Views -->
-<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.min.js"></script>
-<script src="js/views/view.home.js"></script>
+<script src="js/views/view.contact.js"></script>
 
 <!-- Theme Custom -->
 <script src="js/custom.js"></script>
@@ -358,8 +352,60 @@
 <!-- Theme Initialization Files -->
 <script src="js/theme.init.js"></script>
 
-<!-- Examples -->
-<script src="js/examples/examples.demos.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+<script>
+
+    /*
+    Map Settings
+
+        Find the Latitude and Longitude of your address:
+            - http://universimmedia.pagesperso-orange.fr/geo/loc.htm
+            - http://www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
+
+    */
+
+    // Map Markers
+    var mapMarkers = [{
+        address: "New York, NY 10017",
+        html: "<strong>New York Office</strong><br>New York, NY 10017",
+        icon: {
+            image: "img/pin.png",
+            iconsize: [26, 46],
+            iconanchor: [12, 46]
+        },
+        popup: true
+    }];
+
+    // Map Initial Location
+    var initLatitude = 40.75198;
+    var initLongitude = -73.96978;
+
+    // Map Extended Settings
+    var mapSettings = {
+        controls: {
+            panControl: true,
+            zoomControl: true,
+            mapTypeControl: true,
+            scaleControl: true,
+            streetViewControl: true,
+            overviewMapControl: true
+        },
+        scrollwheel: false,
+        markers: mapMarkers,
+        latitude: initLatitude,
+        longitude: initLongitude,
+        zoom: 16
+    };
+
+    var map = $('#googlemaps').gMap(mapSettings);
+
+    // Map Center At
+    var mapCenterAt = function (options, e) {
+        e.preventDefault();
+        $('#googlemaps').gMap("centerAt", options);
+    }
+
+</script>
 
 <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 <script>
