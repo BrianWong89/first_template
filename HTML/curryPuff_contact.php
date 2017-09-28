@@ -82,12 +82,10 @@ require("curryPuff_header3.php");
                                 <div class="form-group">
                                     <div class="col-md-12">
                                         <label for="message">Message *</label>
-                                        <textarea maxlength="5000" data-msg-required="Please enter your message."
-                                                  rows="10" class="form-control" name="message" id="message" required>
-                                            <?php if (isset($_POST['message'])) {
-                                                echo htmlspecialchars($_POST["message"]);
-                                            } ?>
-                                        </textarea>
+                                        <textarea class="form-control" rows="10" id="message"
+                                                  name="message"><?php if (isset($_POST['message'])) {
+                                                echo htmlentities($_POST['message']);
+                                            } ?></textarea>
                                     </div>
                                 </div>
                             </div>
