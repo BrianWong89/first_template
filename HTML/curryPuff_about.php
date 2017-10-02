@@ -1,5 +1,7 @@
 <?php
-require("curryPuff_header2.php");
+$title="About Us | ";
+$page="about-us";
+require("curryPuff_header.php");
 ?>
 
     <div role="main" class="main">

@@ -1,5 +1,7 @@
 <?php
-require("curryPuff_header3.php");
+$title="Contact Us | ";
+$page="contact-us";
+require("curryPuff_header.php");
 ?>
 
     <div role="main" class="main">
@@ -51,7 +53,7 @@ require("curryPuff_header3.php");
 
                     <?php if ($showForm == true) { ?>
 
-                        <form action="curryPuff_contact.php" method="post">
+                        <form action="curryPuff_contact.php" method="post" id="contact">
                             <div class="row">
                                 <div class="form-group">
                                     <div class="col-md-6">
@@ -71,7 +73,7 @@ require("curryPuff_header3.php");
                             <div class="row">
                                 <div class="form-group">
                                     <div class="col-md-12">
-                                        <label for="subject">Subject</label>
+                                        <label for="subject">Subject *</label>
                                         <input type="text" class="form-control" id="subject" name="subject"
                                                value="<?php if (isset($_POST['subject'])) echo $_POST["subject"]; ?>"
                                                placeholder="Enter Your Subject">

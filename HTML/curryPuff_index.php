@@ -1,4 +1,6 @@
 <?php
+$title="";
+$page="index";
 require("curryPuff_header.php");
 ?>
 
@@ -19,9 +21,9 @@ require("curryPuff_header.php");
             <div class="col-md-9">
                 <h2 class="mt-xl"><strong>Freshly Baked</strong> Puffs Daily</h2>
                 <p>
-                    At Brian's Curry Puff, our puffs are hand-made and freshly baked from the oven on a daily basis. We
-                    only utilize the very freshest and best of ingredients to ensure our puffs remain of high quality
-                    and standards, to satisfy the taste buds of all curry puff lovers out there.
+                    <div id="freshlyBakedDescription">
+                    </div>
+                </div>
                 </p>
             </div>
         </div>
