@@ -30,8 +30,12 @@ require("curryPuff_header.php");
                         <th>Email</th>
                     </tr>
                     <tr>
-                        <td><div id="tableName"></div></td>
-                        <td><div id="tableEmail"></div></td>
+                        <td>
+                            <div id="tableName"></div>
+                        </td>
+                        <td>
+                            <div id="tableEmail"></div>
+                        </td>
                     </tr>
                 </table>
             </div>

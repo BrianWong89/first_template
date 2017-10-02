@@ -4,6 +4,9 @@ $(function () {
 
         $("#name").val(data.name);
         $("#email").val(data.email);
+
+        $("#tableName").html(data.name);
+        $("#tableEmail").html(data.email);
     });
     //Don't remove this two lines as it should be hidden by default
     $("#warningDiv").hide();
