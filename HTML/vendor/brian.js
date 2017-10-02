@@ -1,4 +1,9 @@
 $(function () {
+    $.getJSON("webservices.php", function(data) {
+        console.log(data);
+    });
+
+    $("#name").val("Kenneth");
     //Don't remove this two lines as it should be hidden by default
     $("#warningDiv").hide();
     $("#successDiv").hide();
