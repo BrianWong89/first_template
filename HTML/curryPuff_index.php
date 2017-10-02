@@ -1,6 +1,6 @@
 <?php
-$title="";
-$page="index";
+$title = "";
+$page = "index";
 require("curryPuff_header.php");
 ?>
 
@@ -21,12 +21,12 @@ require("curryPuff_header.php");
             <div class="col-md-9">
                 <h2 class="mt-xl"><strong>Freshly Baked</strong> Puffs Daily</h2>
                 <p>
-                    <div id="freshlyBakedDescription">
-                    </div>
+                <div id="freshlyBakedDescription">
                 </div>
-                </p>
             </div>
+            </p>
         </div>
+    </div>
     </div>
     <section class="section section-default">
         <div class="container">

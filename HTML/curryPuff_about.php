@@ -1,6 +1,6 @@
 <?php
-$title="About Us | ";
-$page="about-us";
+$title = "About Us | ";
+$page = "about-us";
 require("curryPuff_header.php");
 ?>
 

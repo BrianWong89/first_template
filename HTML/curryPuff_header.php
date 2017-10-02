@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title><?php echo $title;?>Brian's Curry Puff</title>
+    <title><?php echo $title; ?>Brian's Curry Puff</title>
 
     <meta name="keywords" content="HTML5 Template"/>
     <meta name="description" content="Porto - Responsive HTML5 Template">
@@ -115,19 +115,25 @@
                                 <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
                                     <nav>
                                         <ul class="nav nav-pills" id="mainNav">
-                                            <li class="<?php if ($page == "index") { echo "active"; }?>">
+                                            <li class="<?php if ($page == "index") {
+                                                echo "active";
+                                            } ?>">
                                                 <a href="curryPuff_index.php">
                                                     Home
                                                 </a>
                                             </li>
 
-                                            <li class="<?php if ($page == "about-us") { echo "active"; }?>">
+                                            <li class="<?php if ($page == "about-us") {
+                                                echo "active";
+                                            } ?>">
                                                 <a href="curryPuff_about.php">
                                                     About Us
                                                 </a>
                                             </li>
 
-                                            <li class="<?php if ($page == "contact-us") { echo "active"; }?>">
+                                            <li class="<?php if ($page == "contact-us") {
+                                                echo "active";
+                                            } ?>">
                                                 <a href="curryPuff_contact.php">
                                                     Contact Us
                                                 </a>

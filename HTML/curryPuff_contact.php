@@ -1,6 +1,6 @@
 <?php
-$title="Contact Us | ";
-$page="contact-us";
+$title = "Contact Us | ";
+$page = "contact-us";
 require("curryPuff_header.php");
 ?>
 
@@ -30,6 +30,13 @@ require("curryPuff_header.php");
 
             <div class="row">
                 <div class="col-md-6">
+                    <div id="warningDiv" class="alert alert-danger">
+                        <strong>Error!</strong> Your message has not been sent. Please fill in the * field(s)
+                        accordingly.
+                    </div>
+                    <div id="successDiv" class="alert alert-success">
+                        <strong>Success!</strong> Your message has been sent. We will get back to you ASAP!
+                    </div>
 
                     <?php if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["message"])) { ?>
                         <?php if ($_POST["name"] == "" || $_POST["email"] == "" || $_POST["message"] == "") { ?>
@@ -54,6 +61,7 @@ require("curryPuff_header.php");
                     <?php if ($showForm == true) { ?>
 
                         <form action="curryPuff_contact.php" method="post" id="contact">
+
                             <div class="row">
                                 <div class="form-group">
                                     <div class="col-md-6">
