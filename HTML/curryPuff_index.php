@@ -23,6 +23,17 @@ require("curryPuff_header.php");
                 <p>
                 <div id="freshlyBakedDescription">
                 </div>
+                <br>
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </tr>
+                    <tr>
+                        <td><div id="tableName"></div></td>
+                        <td><div id="tableEmail"></div></td>
+                    </tr>
+                </table>
             </div>
             </p>
         </div>

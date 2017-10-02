@@ -1,9 +1,10 @@
 $(function () {
-    $.getJSON("webservices.php", function(data) {
+    $.getJSON("webservices.php", function (data) {
         console.log(data);
-    });
 
-    $("#name").val("Kenneth");
+        $("#name").val(data.name);
+        $("#email").val(data.email);
+    });
     //Don't remove this two lines as it should be hidden by default
     $("#warningDiv").hide();
     $("#successDiv").hide();
