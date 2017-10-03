@@ -15,7 +15,7 @@ require("curryPuff_header.php");
     <div class="container">
         <div class="row mt-xl mb-xl">
             <div class="col-md-3">
-                <img class="img-responsive mt-xl appear-animation" src="img/curryPuff1.png" alt=""
+                <img id="curryImg" class="img-responsive mt-xl appear-animation" src="img/curryPuff1.png" alt=""
                      data-appear-animation="fadeInLeft">
             </div>
             <div class="col-md-9">
@@ -24,19 +24,18 @@ require("curryPuff_header.php");
                 <div id="freshlyBakedDescription">
                 </div>
                 <br>
-                <table class="table table-bordered">
+                <button id="flashBtn" class="btn btn-success">Flash</button>
+                <br><br>
+                <table id="myTable" class="table table-bordered">
                     <tr>
                         <th>Name</th>
-                        <th>Email</th>
+                        <th>Surname</th>
+                        <th>Age</th>
+                        <th>Savings</th>
                     </tr>
-                    <tr>
-                        <td>
-                            <div id="tableName"></div>
-                        </td>
-                        <td>
-                            <div id="tableEmail"></div>
-                        </td>
-                    </tr>
+                    <tbody>
+
+                    </tbody>
                 </table>
             </div>
             </p>

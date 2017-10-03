@@ -1,12 +1,12 @@
 $(function () {
-    $.getJSON("webservices.php", function (data) {
-        console.log(data);
+    $.getJSON("savings.php", function (data) {
+        //console.log(data);
+       // console.log(data.members);
+        for (i = 0; i < data.members.length; i++) {
+            console.log(data.members[i]);
+            $('#myTable tr:last').after("<tr><td> " + data.members[i].name + " </td><td> " + data.members[i].surname + " </td><td> " + data.members[i].age + " </td><td> " + data.members[i].savings + " </td></tr>"); //This one executes 3 times
+        }
 
-        $("#name").val(data.name);
-        $("#email").val(data.email);
-
-        $("#tableName").html(data.name);
-        $("#tableEmail").html(data.email);
     });
     //Don't remove this two lines as it should be hidden by default
     $("#warningDiv").hide();
@@ -17,7 +17,11 @@ $(function () {
         "baked from the oven on a daily basis. We\n " +
         "only utilize the very freshest and best of ingredients to ensure our puffs remain of high quality\n " +
         "and standards, to satisfy the taste buds of all curry puff lovers out there.<br>");
-    $("#freshlyBakedDescription").append("<br><input type='checkbox'> Click if you like it!");
+
+    $("#flashBtn").click(function () {
+
+    });
+
 
     $("#contact").submit(function (event) {
         var errorMessages = "";
