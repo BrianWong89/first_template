@@ -1,7 +1,7 @@
 $(function () {
     $.getJSON("savings.php", function (data) {
         //console.log(data);
-       // console.log(data.members);
+        // console.log(data.members);
         for (i = 0; i < data.members.length; i++) {
             console.log(data.members[i]);
             $('#myTable tr:last').after("<tr><td> " + data.members[i].name + " </td><td> " + data.members[i].surname + " </td><td> " + data.members[i].age + " </td><td> " + data.members[i].savings + " </td></tr>"); //This one executes 3 times
