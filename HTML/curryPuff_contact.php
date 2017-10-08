@@ -60,20 +60,20 @@ require("curryPuff_header.php");
 
                     <?php if ($showForm == true) { ?>
 
-                        <form action="curryPuff_contact.php" method="post" id="contact">
+                        <form action="process_contact_form.php" method="post" id="contact">
 
                             <div class="row">
                                 <div class="form-group">
                                     <div class="col-md-6">
                                         <label for="name">Name *</label>
                                         <input type="text" class="form-control" id="name" name="name"
-                                               value="<?php if (isset($_POST['name'])) echo $_POST["name"]; ?>"
+                                               value="Brian Wong"
                                                placeholder="Enter Your Name">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="email">Email Address *</label>
                                         <input type="text" class="form-control" id="email" name="email"
-                                               value="<?php if (isset($_POST['email'])) echo $_POST["email"]; ?>"
+                                               value="darkness3nity@yahoo.com.sg""
                                                placeholder="Enter Your Email Address">
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@ require("curryPuff_header.php");
                                     <div class="col-md-12">
                                         <label for="subject">Subject *</label>
                                         <input type="text" class="form-control" id="subject" name="subject"
-                                               value="<?php if (isset($_POST['subject'])) echo $_POST["subject"]; ?>"
+                                               value="Test Subject"
                                                placeholder="Enter Your Subject">
                                     </div>
                                 </div>
@@ -93,9 +93,7 @@ require("curryPuff_header.php");
                                     <div class="col-md-12">
                                         <label for="message">Message *</label>
                                         <textarea class="form-control" rows="10" id="message"
-                                                  name="message"><?php if (isset($_POST['message'])) {
-                                                echo htmlentities($_POST['message']);
-                                            } ?></textarea>
+                                                  name="message">Test message</textarea>
                                     </div>
                                 </div>
                             </div>

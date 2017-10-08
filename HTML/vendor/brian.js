@@ -1,13 +1,19 @@
 $(function () {
-    $.getJSON("savings.php", function (data) {
-        //console.log(data);
-        // console.log(data.members);
-        for (i = 0; i < data.members.length; i++) {
-            console.log(data.members[i]);
-            $('#myTable tr:last').after("<tr><td> " + data.members[i].name + " </td><td> " + data.members[i].surname + " </td><td> " + data.members[i].age + " </td><td> " + data.members[i].savings + " </td></tr>"); //This one executes 3 times
-        }
+    var data = {
+        "action": "searchUser",
+        "dateOfBirth": $("#dateofbirth").val(),
+    };
+    $.getJSON("savings.php", data,
+        function (data) {
+            //console.log(data);
+            // console.log(data.members);
+            for (i = 0; i < data.members.length; i++) {
+                console.log(data.members[i]);
+                $('#myTable tr:last').after("<tr><td> " + data.members[i].name + " </td><td> " + data.members[i].surname + " </td><td> " + data.members[i].age + " </td><td> " + data.members[i].savings + " </td></tr>"); //This one executes 3 times
+            }
 
-    });
+        }
+    );
     //Don't remove this two lines as it should be hidden by default
     $("#warningDiv").hide();
     $("#successDiv").hide();
