@@ -28,6 +28,16 @@
 
 <body class="stretched">
 
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- Document Wrapper
 ============================================= -->
 <div id="wrapper" class="clearfix">
@@ -39,8 +49,6 @@
         <div id="header-wrap">
 
             <div class="container clearfix">
-
-                <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
                 <!-- Logo
                 ============================================= -->
@@ -54,7 +62,6 @@
                 <!-- Primary Navigation
                 ============================================= -->
                 <nav id="primary-menu" class="dark">
-
                     <ul>
                         <li><a href="quiz_index.php">
                                 <div>Home</div>
@@ -65,40 +72,24 @@
                             </a>
                         </li>
                         <li><a href="#">
-                                <div>Fortune</div>
+                                <div>Most Popular</div>
                             </a>
                         </li>
-                        <li><a href="#">
-                                <div>Pages</div>
-                            </a>
-                        </li>
-                        <li><a href="#">
-                                <div>Pop Culture</div>
-                            </a>
-                        </li>
-                        <li><a href="#">
-                                <div>Life & Stuff</div>
-                            </a>
-                        </li>
-                        <li><a href="#">
-                                <div>Personality</div>
-                            </a>
-                        </li>
-                        <li><a href="#">
-                                <div>GIF</div>
-                            </a>
-                        </li>
-                        <li><a href="#">
-                                <div>Face It</div>
-                            </a>
-                        </li>
-                        <li><a href="#">
-                                <div>K-Stars</div>
-                            </a>
+                        <li>
+                            <div class="lang-selector" href="#">
+                                <select id="langchooser">
+                                    <option value="en" selected>English</option>
+                                    <option value="zh">中国</option>
+                                </select>
+                            </div>
                         </li>
                     </ul>
-
                 </nav><!-- #primary-menu end -->
+
+                <div class="fb-like"
+                     data-href="http://localhost/first_template/quiz-you/Package-HTML/HTML/quiz_index.php"
+                     data-layout="standard" data-action="like" data-size="small" data-show-faces="true"
+                     data-share="true"></div>
 
             </div>
 
