@@ -10,7 +10,7 @@
             <div class="col_half">
                 Copyrights &copy; 2017 All Rights Reserved by Quiz-You Inc.<br>
                 <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a> /
-                    <a href="#">FAQ</a></div>
+                    <a href="#">FAQ</a> / <a href="contact_form.php">Contact</a></div>
             </div>
 
             <div class="col_half col_last tright">
@@ -87,6 +87,7 @@
 <!-- Footer Scripts
 ============================================= -->
 <script type="text/javascript" src="js/functions.js"></script>
+<script src="quiz_vue.js"></script>
 
 </body>
 </html>

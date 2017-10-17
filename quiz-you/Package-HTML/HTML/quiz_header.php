@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="css/font-icons.css" type="text/css"/>
     <link rel="stylesheet" href="css/animate.css" type="text/css"/>
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"/>
+    <script src="../../../../first_template/quiz-you/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../../../../first_template/quiz-you/bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../../../../first_template/quiz-you/bower_components/vue/dist/vue.js"></script>
+    <script src="../../../../first_template/quiz-you/bower_components/vue-resource/dist/vue-resource.js"></script>
 
     <link rel="stylesheet" href="css/responsive.css" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -75,21 +79,15 @@
                                 <div>Most Popular</div>
                             </a>
                         </li>
-                        <li>
-                            <div class="lang-selector" href="#">
-                                <select id="langchooser">
-                                    <option value="en" selected>English</option>
-                                    <option value="zh">中国</option>
-                                </select>
-                            </div>
-                        </li>
                     </ul>
+                    <div id="top-search">
+                        <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                        <form action="#" method="get">
+                            <input type="text" name="q" class="form-control" value=""
+                                   placeholder="Type &amp; Hit Enter..">
+                        </form>
+                    </div>
                 </nav><!-- #primary-menu end -->
-
-                <div class="fb-like"
-                     data-href="http://localhost/first_template/quiz-you/Package-HTML/HTML/quiz_index.php"
-                     data-layout="standard" data-action="like" data-size="small" data-show-faces="true"
-                     data-share="true"></div>
 
             </div>
 

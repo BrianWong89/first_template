@@ -26,23 +26,65 @@ require("quiz_header.php");
     <!-- Content
     ============================================= -->
     <section id="content">
-        <div class="container-fluid">
-            <div class="row">
-                <a href="quiz_halloween.php"><img src="images/mock-up box.png" alt="Mock-up box"></a>
-                <img src="images/mock-up box.png" alt="Mock-up box">
-                <img src="images/mock-up box.png" alt="Mock-up box">
+
+        <div class="content-wrap">
+
+            <div class="container clearfix">
+
+                <div id="posts" class="post-grid grid-container grid-3 clearfix" data-layout="fitRows">
+
+                    <div class="entry clearfix">
+                        <div class="entry-image">
+                            <a href="quiz_halloween.php"><img src="images/mock-up box.png" alt="Mock-up box"></a>
+                        </div>
+                    </div>
+                    <div class="entry clearfix">
+                        <div class="entry-image">
+                            <img src="images/mock-up box.png" alt="Mock-up box">
+                        </div>
+                    </div>
+                    <div class="entry clearfix">
+                        <div class="entry-image">
+                            <img src="images/mock-up box.png" alt="Mock-up box">
+                        </div>
+                    </div>
+                    <div class="entry clearfix">
+                        <div class="entry-image">
+                            <img src="images/mock-up box.png" alt="Mock-up box">
+                        </div>
+                    </div>
+                    <div class="entry clearfix">
+                        <div class="entry-image">
+                            <img src="images/mock-up box.png" alt="Mock-up box">
+                        </div>
+                    </div>
+                    <div class="entry clearfix">
+                        <div class="entry-image">
+                            <img src="images/mock-up box.png" alt="Mock-up box">
+                        </div>
+                    </div>
+                    <div class="entry clearfix">
+                        <div class="entry-image">
+                            <img src="images/mock-up box.png" alt="Mock-up box">
+                        </div>
+                    </div>
+                    <div class="entry clearfix">
+                        <div class="entry-image">
+                            <img src="images/mock-up box.png" alt="Mock-up box">
+                        </div>
+                    </div>
+                    <div class="entry clearfix">
+                        <div class="entry-image">
+                            <img src="images/mock-up box.png" alt="Mock-up box">
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-            <div class="row">
-                <img src="images/mock-up box.png" alt="Mock-up box">
-                <img src="images/mock-up box.png" alt="Mock-up box">
-                <img src="images/mock-up box.png" alt="Mock-up box">
-            </div>
-            <div class="row">
-                <img src="images/mock-up box.png" alt="Mock-up box">
-                <img src="images/mock-up box.png" alt="Mock-up box">
-                <img src="images/mock-up box.png" alt="Mock-up box">
-            </div>
+
         </div>
+
     </section><!-- #content end -->
 
 <?php
