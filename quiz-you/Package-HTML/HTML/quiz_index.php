@@ -4,6 +4,23 @@ $page = "index";
 require("quiz_header.php");
 ?>
 
+    <section id="page-title">
+
+        <div class="container clearfix">
+            <div class="fb-like" data-href="http://localhost/first_template/quiz-you/Package-HTML/HTML/quiz_index.php"
+                 data-layout="standard" data-action="like" data-size="small" data-show-faces="true"
+                 data-share="true"></div>
+        </div>
+<br>
+        <div class="container clearfix">
+            <select class="selectpicker" data-width="fit">
+                <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+                <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
+            </select>
+        </div>
+
+    </section>
+
     <section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
         <div class="slider-parallax-inner">
 
@@ -80,6 +97,11 @@ require("quiz_header.php");
                     </div>
 
                 </div>
+
+                <ul class="pager nomargin">
+                    <li class="previous"><a href="#">&larr; Older</a></li>
+                    <li class="next"><a href="#">Newer &rarr;</a></li>
+                </ul>
 
             </div>
 

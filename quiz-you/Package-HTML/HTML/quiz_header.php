@@ -30,7 +30,7 @@
 
 </head>
 
-<body class="stretched">
+<body class="dark stretched">
 
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
